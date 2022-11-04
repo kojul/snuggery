@@ -24,8 +24,8 @@ class Assets {
     _initDone = true;
 
     // Fonts
-    fontPixel = new hxd.res.BitmapFont( hxd.Res.fonts.iosevka_12_fnt.entry ).toFont();
-    fontPixelMono = new hxd.res.BitmapFont( hxd.Res.fonts.iosevka_16_fnt.entry ).toFont();
+    fontPixel = new hxd.res.BitmapFont( hxd.Res.fonts.pixel_unicode_regular_12_xml.entry ).toFont();
+    fontPixelMono = new hxd.res.BitmapFont( hxd.Res.fonts.pixica_mono_regular_16_xml.entry ).toFont();
 
     // build sprite atlas directly from Aseprite file
     tiles = dn.heaps.assets.Aseprite.convertToSLib(Const.FPS, hxd.Res.atlas.tiles.toAseprite());

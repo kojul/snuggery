@@ -3,6 +3,8 @@ bin/
 dump/
 res/.tmp/
 res/**/backups/
+crash.log
+.DS_Store
 
 # VScode
 .vscode/settings.json
